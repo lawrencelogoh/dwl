@@ -13,6 +13,7 @@ pkgs.mkShell {
     pkgs.wlroots
     pkgs.xwayland
     pkgs.libxkbcommon
+    pkgs.xorg.xcbutilwm
   ];
 
 }
