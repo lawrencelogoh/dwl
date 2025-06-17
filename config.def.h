@@ -22,7 +22,8 @@ static const float urgentcolor[]           = COLOR(0xff0000ff);
 static const float fullscreen_bg[]         = {0.1f, 0.1f, 0.1f, 1.0f}; /* You can also use glsl colors */
 static int enableautoswallow = 1; /* enables autoswallowing newly spawned clients */
 static float swallowborder = 1.0f; /* add this multiplied by borderpx to border when a client is swallowed */
-
+static const char *cursor_theme            = "phinger-cursors-dark";
+static const char cursor_size[]            = "24"; 
 
 /* tagging - TAGCOUNT must be no greater than 31 */
 #define TAGCOUNT (9)
