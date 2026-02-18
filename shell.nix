@@ -10,7 +10,7 @@ pkgs.mkShell {
     pkgs.wayland
     pkgs.wayland-protocols
     pkgs.wayland-scanner
-    pkgs.wlroots
+    pkgs.wlroots_0_18
     pkgs.xwayland
     pkgs.libxkbcommon
     pkgs.xorg.xcbutilwm
