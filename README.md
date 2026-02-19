@@ -1,5 +1,8 @@
 # dwl - dwm for Wayland
 
+_This is my personal build of dwl with some patches_
+_You can find the patches I use in ./patches._
+
 Join us on our IRC channel: [#dwl on Libera Chat]  
 Or on our [Discord server].
 
@@ -199,3 +202,4 @@ inspiration, and to the various contributors to the project, including:
 [wiki]: https://codeberg.org/dwl/dwl/wiki/Home#compatible-status-bars
 [Discord server]: https://discord.gg/jJxZnrGPWN
 [Wayland]: https://wayland.freedesktop.org/
+ 
