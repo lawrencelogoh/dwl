@@ -162,9 +162,9 @@ static const char *emacsclientworkcmd[] = {
     NULL
 };
 static const char *obstogglecmd[] = {
-    "sh", "-c",
-    "obs-cmd recording toggle",
-    NULL
+  "sh", "-c",
+  "obs-cmd recording toggle >> /tmp/obs-debug.log 2>&1",
+  NULL
 };
 
 static const Key keys[] = {
