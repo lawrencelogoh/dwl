@@ -163,7 +163,7 @@ static const char *emacsclientworkcmd[] = {
 };
 static const char *obstogglecmd[] = {
   "sh", "-c",
-  "obs-cmd recording toggle >> /tmp/obs-debug.log 2>&1",
+  "obs-cmd recording toggle",
   NULL
 };
 
@@ -176,7 +176,7 @@ static const Key keys[] = {
     {MODKEY | WLR_MODIFIER_SHIFT, XKB_KEY_S,         spawn,          {.v = screenshotcmd}},
     { MODKEY,                     XKB_KEY_e,         spawn,          {.v = emacsclientcmd} },
     { MODKEY,                     XKB_KEY_w,         spawn,          {.v = emacsclientworkcmd} },
-    { MODKEY|WLR_MODIFIER_SHIFT, XKB_KEY_r,          spawn,          {.v = obstogglecmd} },	
+    { MODKEY|WLR_MODIFIER_SHIFT, XKB_KEY_R,          spawn,          {.v = obstogglecmd} },	
     { MODKEY,                    XKB_KEY_b,          togglebar,      {0} },
     { MODKEY,                    XKB_KEY_j,          focusstack,     {.i = +1} },
     { MODKEY,                    XKB_KEY_k,          focusstack,     {.i = -1} },
