@@ -170,12 +170,12 @@ static const char *obstogglecmd[] = {
 static const Key keys[] = {
     /* Note that Shift changes certain key codes: c -> C, 2 -> at, etc. */
     /* modifier                  key                 function        argument */
-    {MODKEY, XKB_KEY_d, spawn, {.v = menucmd}},
-    {MODKEY | WLR_MODIFIER_SHIFT, XKB_KEY_Return, spawn, {.v = termcmd}},
-    {MODKEY | WLR_MODIFIER_SHIFT, XKB_KEY_C, spawn, {.v = cliphistcmd}},
-    {MODKEY | WLR_MODIFIER_SHIFT, XKB_KEY_S, spawn, {.v = screenshotcmd}},
-    { MODKEY,                     XKB_KEY_e,          spawn,          {.v = emacsclientcmd} },
-    { MODKEY,                     XKB_KEY_w,          spawn,          {.v = emacsclientworkcmd} },
+    {MODKEY,                      XKB_KEY_d,         spawn,          {.v = menucmd}},
+    {MODKEY | WLR_MODIFIER_SHIFT, XKB_KEY_Return,    spawn,          {.v = termcmd}},
+    {MODKEY | WLR_MODIFIER_SHIFT, XKB_KEY_C,         spawn,          {.v = cliphistcmd}},
+    {MODKEY | WLR_MODIFIER_SHIFT, XKB_KEY_S,         spawn,          {.v = screenshotcmd}},
+    { MODKEY,                     XKB_KEY_e,         spawn,          {.v = emacsclientcmd} },
+    { MODKEY,                     XKB_KEY_w,         spawn,          {.v = emacsclientworkcmd} },
     { MODKEY|WLR_MODIFIER_SHIFT, XKB_KEY_r,          spawn,          {.v = obstogglecmd} },	
     { MODKEY,                    XKB_KEY_b,          togglebar,      {0} },
     { MODKEY,                    XKB_KEY_j,          focusstack,     {.i = +1} },
